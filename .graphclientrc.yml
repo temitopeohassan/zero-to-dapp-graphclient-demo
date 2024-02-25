@@ -1,0 +1,7 @@
+sources:
+    - name: Zero to dapp demo
+      handler:
+          graphql:
+              endpoint: https://api.studio.thegraph.com/query/66484/zero-to-dapp-demo/v2
+documents:
+    - ./graphql/getTransfers.gql
